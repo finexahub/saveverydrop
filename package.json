@@ -1,0 +1,24 @@
+{
+  "name": "save-every-drop",
+  "version": "1.0.0",
+  "description": "Save Every Drop - Greywater Filtration & Water Reuse System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "water",
+    "greywater",
+    "science",
+    "epa",
+    "cbse"
+  ],
+  "author": "Ayush Gupta",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
